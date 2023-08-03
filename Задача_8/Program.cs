@@ -1,17 +1,17 @@
 ﻿// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 int num = new Random().Next(-100, 100);
 System.Console.WriteLine("Задано число: " + num);
-int numStarts = 1;
+int numCount = 1;
 System.Console.WriteLine("Все чётные числа от 1 до " + num + ":");
 if (num > 0)
 {
-    while (numStarts <= num)
+    while (numCount <= num)
     {
-        if (numStarts % 2 == 0)
+        if (numCount % 2 == 0)
         {
-            System.Console.WriteLine(numStarts);
+            System.Console.WriteLine(numCount);
         }
-        numStarts++;
+        numCount++;
     }
 }
 if (num == 1)
@@ -20,12 +20,12 @@ if (num == 1)
 }
 if (num <= 0)
 {
-    while (numStarts >= num)
+    while (numCount >= num)
     {
-        if (numStarts % 2 == 0)
+        if (numCount % 2 == 0)
         {
-            System.Console.WriteLine(numStarts);
+            System.Console.WriteLine(numCount);
         }
-        numStarts--;
+        numCount--;
     }
 }
