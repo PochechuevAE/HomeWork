@@ -20,3 +20,8 @@ else if (num3 > num1 && num3 > num2)
 {
     System.Console.WriteLine("Максимальное число: " + num3);
 }
+//         Второй вариант решения задачи 4:
+// int max1 = Math.Max(num1, num2);
+// int max2 = Math.Max(num2, num3);
+// int max3 = Math.Max(max1, max2);
+// System.Console.WriteLine("Наибольшее число через Math.Max: " + max3);
