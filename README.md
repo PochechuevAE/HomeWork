@@ -1,1 +1,1 @@
-# HomeWork
+# HomeWork for C# seminar
