@@ -6,6 +6,7 @@ System.Console.WriteLine("Второе число: " + num2);
 int num3 = new Random().Next(0, 100);
 System.Console.WriteLine("Третье число: " + num3);
 
+// Первый вариант решения задачи:
 if (num1 > num2 && num1 > num3)
 {
     System.Console.WriteLine("Максимальное число: " + num1);
