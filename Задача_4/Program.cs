@@ -21,18 +21,18 @@ else if (num3 > num1 && num3 > num2)
 {
     System.Console.WriteLine("Максимальное число: " + num3);
 }
+
 else if (num1 == num2 && num1 == num3)
 {
     System.Console.WriteLine("Числа равны и все максимальные: " + num1);
 }
-else if (num1 == num2 && num1 > num3)
 
+else if (num1 == num2 && num1 > num3)
 {
     System.Console.WriteLine("Первое число равно второму и они максимальны: " + num1);
 }
 
 else if (num1 == num3 && num1 > num2)
-
 {
     System.Console.WriteLine("Первое число равно третьему и они максимальны: " + num1);
 }
@@ -41,6 +41,7 @@ else if (num2 == num3 && num2 > num1)
 {
     System.Console.WriteLine("Второе число равно третьему и они максимальны:" + num2);
 }
+
 //         Второй вариант решения задачи 4:
 // int max1 = Math.Max(num1, num2);
 // int max2 = Math.Max(num2, num3);
