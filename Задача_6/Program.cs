@@ -6,7 +6,7 @@ if (num % 2 == 0)
     Console.WriteLine("Число {0} - чётное", num);
 }
 
-else if (num % 2 == 1)
+else 
 {
     Console.WriteLine("Число {0} - нечётное", num);
 }
