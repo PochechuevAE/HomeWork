@@ -7,12 +7,12 @@ Console.WriteLine("Второе число: " + num2);
 
 if (num1 > num2)
 {
-    Console.WriteLine("Наибольшее из двух чисел " + num1);
+    Console.WriteLine("Наибольшее из двух чисел " + num1 + " Наименьшее из двух чисел " + num2);
 }
 
 else if (num2 > num1)
 {
-    Console.WriteLine("Наибольшее из двух чисел " + num2);
+    Console.WriteLine("Наибольшее из двух чисел " + num2 + " Наименьшее из двух чисел " + num1);
 }
 
 else if (num1 == num2)
