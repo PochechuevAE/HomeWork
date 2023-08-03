@@ -18,7 +18,7 @@ if (num == 1)
 {
     System.Console.WriteLine("Нет чётных чисел");
 }
-if (num < 0)
+if (num <= 0)
 {
     while (numStarts >= num)
     {
