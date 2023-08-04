@@ -42,8 +42,4 @@ else if (num2 == num3 && num2 > num1)
     System.Console.WriteLine("Второе число равно третьему и они максимальны:" + num2);
 }
 
-//         Второй вариант решения задачи 4:
-// int max1 = Math.Max(num1, num2);
-// int max2 = Math.Max(num2, num3);
-// int max3 = Math.Max(max1, max2);
-// System.Console.WriteLine("Наибольшее число через Math.Max: " + max3);
+// Вариант 2 решения задачи на ветке vetka2
