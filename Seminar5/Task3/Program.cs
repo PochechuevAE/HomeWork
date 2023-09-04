@@ -6,8 +6,8 @@ System.Console.WriteLine("Выбран массив:");
 PrintArray(arr);
 int a = FindMax(arr);
 int b = FindMin(arr);
-int raz = a -b;
-
+int raz = a - b;
+System.Console.WriteLine($"Максимальный элемент массива равен: {a}, а минимальный: {b}");
 System.Console.WriteLine($"Разница максимального и минимального элементов массива равна: {raz}");
 
 int FindMax(int[] array)
