@@ -61,3 +61,4 @@ bool ValidateLines(double[] lineData1, double[] lineData2)
 
     return true;
 }
+
