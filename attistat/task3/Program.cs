@@ -4,8 +4,10 @@ m = 2, n = 3 -> A(m,n) = 9
 m = 3, n = 2 -> A(m,n) = 29
 */
 
-int m = InputNumbers("Введите m: ");
-int n = InputNumbers("Введите n: ");
+
+
+int m = SetNumber("первое"); 
+int n = SetNumber("второе");
 
 int functionAkkerman = Ack(m, n);
 
